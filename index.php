@@ -34,7 +34,7 @@ $title = 'Atividade 01 - Back End I';
             <?php foreach($colaboradores as $colaborador): ?>
                 <?php $totalVendas = (floatval($colaborador['venda_semana1']) + floatval($colaborador['venda_semana2']) + floatval($colaborador['venda_semana3']) + floatval($colaborador['venda_semana4']));?>
                 <?php $comissao = (floatval($totalVendas) * 5) / 100; ?>
-                <?php $salarioFinal = floatval($totalVendas) + floatval($comissao); ?>
+                <?php $salarioFinal = floatval($colaborador['salario_fixo']) + floatval($comissao); ?>
                 <tr>
                     <td><?=$colaborador['colaborador'];?></td>
                     <td>R$ <?=number_format(floatval($colaborador['salario_fixo']), 2, ',', '.') ;?></td>

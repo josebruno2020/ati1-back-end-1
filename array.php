@@ -13,16 +13,16 @@ $colaboradores = [
         'salario_fixo' => 1500.15,
         'venda_semana1' => 150.00,
         'venda_semana2' => 1324.00,
-        'venda_semana3' => 2800,
-        'venda_semana4' => 1900,
+        'venda_semana3' => 1785.85,
+        'venda_semana4' => 1900.00,
     ],
     [
         'colaborador' => 'Andrea',
         'salario_fixo' => 2500.30,
         'venda_semana1' => 1500.10,
         'venda_semana2' => 4150.00,
-        'venda_semana3' => 1250,
-        'venda_semana4' => 900,
+        'venda_semana3' => 1250.60,
+        'venda_semana4' => 900.00,
     ],
     [
         'colaborador' => 'Mariana',
@@ -33,8 +33,3 @@ $colaboradores = [
         'venda_semana4' => 1478.25,
     ],
 ];
-
-
-//5% de comissao
-
-//Salario final (totalvendas + comissao)
