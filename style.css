@@ -34,3 +34,7 @@ tr, th, td {
 th {
     background-color: #FFF;
 }
+
+.resultado {
+    background-color: #ccc;
+}
