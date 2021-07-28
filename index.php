@@ -43,8 +43,8 @@ $title = 'Atividade 01 - Back End I';
                     <td>R$ <?=number_format(floatval($colaborador['venda_semana3']), 2, ',', '.') ;?></td>
                     <td>R$ <?=number_format(floatval($colaborador['venda_semana4']), 2, ',', '.') ;?></td>
                     <td class="resultado">R$ <?=number_format(floatval($totalVendas), 2, ',', '.') ;?></td>
-                    <td class="resultado">R$ <?=number_format(floatval($comissao), 3, ',', '.') ;?></td>
-                    <td class="resultado">R$ <?=number_format(floatval($salarioFinal), 3, ',', '.') ;?></td>
+                    <td class="resultado">R$ <?=number_format(floatval($comissao), 2, ',', '.') ;?></td>
+                    <td class="resultado">R$ <?=number_format(floatval($salarioFinal), 2, ',', '.') ;?></td>
                 </tr>
             <?php endforeach;?>
         </tbody>    
