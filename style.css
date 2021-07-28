@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfe1e2;
+    font-family: Arial;
+}
+
+.text-center {
+    text-align:center;
+}
+.subtitle {
+    margin-top: 1%;
+}
+
+hr {
+    margin: 2% 0;
+}
+
+table {
+    width: 100%;
+    padding: 0 2%;
+
+}
+
+tr, th, td {
+    border: 1px double #000;
+    font-size: 20px;
+}
+
+th {
+    background-color: #FFF;
+}
