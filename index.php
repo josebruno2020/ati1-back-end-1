@@ -1,5 +1,5 @@
 <?php
-include('array.php');
+$colaboradores = include('array.php');
 $title = 'Atividade 01 - Back End I';
 ?>
 

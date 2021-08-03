@@ -1,5 +1,5 @@
 <?php
-$colaboradores = [
+return [
     [
         'colaborador' => 'Bruno',
         'salario_fixo' => 2000.30,
